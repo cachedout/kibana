@@ -97,6 +97,17 @@ class SpaceSelectorUI extends Component<Props, State> {
         <EuiPageBody>
           <EuiPageHeader className="spcSpaceSelector__heading">
             <EuiSpacer size="xxl" />
+            <h2
+              style={{
+                color: '#BD271E',
+                fontWeight: 'bold',
+                fontSize: '3rem',
+                textAlign: 'center',
+              }}
+              data-test-subj="spaceSelectorUpdatedByClaudeCode"
+            >
+              {'Updated by Claude Code'}
+            </h2>
             <span className="spcSpaceSelector__logo">
               <EuiIcon size="xxl" type={`logoKibana`} />
             </span>

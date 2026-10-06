@@ -16,6 +16,19 @@ exports[`it renders without crashing 1`] = `
       <EuiSpacer
         size="xxl"
       />
+      <h2
+        data-test-subj="spaceSelectorUpdatedByClaudeCode"
+        style={
+          Object {
+            "color": "#BD271E",
+            "fontSize": "3rem",
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        Updated by Claude Code
+      </h2>
       <span
         className="spcSpaceSelector__logo"
       >
